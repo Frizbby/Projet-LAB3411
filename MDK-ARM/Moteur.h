@@ -1,4 +1,6 @@
 /*
+Notes :
+
 fonctions nécessaires :
 
 - faire avancer la voiture
@@ -7,7 +9,7 @@ fonctions nécessaires :
 - faire reculer la voiture
 
 
-Notes : fonction d'initilisation 
+fonction d'initilisation :
 d'autres fonctions selon la fonctionnalités
 
 Programmer les signaux à envoyer aux drivers
