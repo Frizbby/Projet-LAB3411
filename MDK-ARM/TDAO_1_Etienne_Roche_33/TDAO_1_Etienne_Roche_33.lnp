@@ -1,0 +1,20 @@
+--cpu Cortex-M3
+"tdao_1_etienne_roche_33\startup_stm32f103xb.o"
+"tdao_1_etienne_roche_33\main.o"
+"tdao_1_etienne_roche_33\gpio.o"
+"tdao_1_etienne_roche_33\usart.o"
+"tdao_1_etienne_roche_33\stm32f1xx_it.o"
+"tdao_1_etienne_roche_33\button.o"
+"tdao_1_etienne_roche_33\led.o"
+"tdao_1_etienne_roche_33\stm32f1xx_ll_gpio.o"
+"tdao_1_etienne_roche_33\stm32f1xx_ll_pwr.o"
+"tdao_1_etienne_roche_33\stm32f1xx_ll_exti.o"
+"tdao_1_etienne_roche_33\stm32f1xx_ll_usart.o"
+"tdao_1_etienne_roche_33\stm32f1xx_ll_dma.o"
+"tdao_1_etienne_roche_33\stm32f1xx_ll_rcc.o"
+"tdao_1_etienne_roche_33\stm32f1xx_ll_utils.o"
+"tdao_1_etienne_roche_33\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "TDAO_1_Etienne_Roche_33\TDAO_1_Etienne_Roche_33.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TDAO_1_Etienne_Roche_33.map" -o TDAO_1_Etienne_Roche_33\TDAO_1_Etienne_Roche_33.axf
