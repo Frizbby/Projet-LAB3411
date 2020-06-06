@@ -464,11 +464,11 @@ ARM Macro Assembler    Page 8
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=tdao_1_etienne_roche_33\startup_stm32f103xb.d -otdao_1_etienne_roc
 he_33\startup_stm32f103xb.o -I.\RTE\_TDAO_1_Etienne_Roche_33 -IC:\Users\Etienne
-\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include -IC:\Users\Etienne\
+\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include -IC:\Users\Etienne\
 AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include --predefine="__
 EVAL SETA 1" --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SET
-A 529" --predefine="_RTE_ SETA 1" --predefine="STM32F10X_MD SETA 1" --list=star
-tup_stm32f103xb.lst startup_stm32f103xb.s
+A 530" --predefine="_RTE_ SETA 1" --predefine="STM32F10X_MD SETA 1" --predefine
+="_RTE_ SETA 1" --list=startup_stm32f103xb.lst startup_stm32f103xb.s
 
 
 

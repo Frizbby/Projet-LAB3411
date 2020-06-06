@@ -20,6 +20,9 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "Moteur.h"
+#include "stdio.h"
+#include "stdlib.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -103,18 +106,28 @@ int main(void)
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
+
+	
   MX_GPIO_Init();
   MX_USART2_UART_Init();
+	
+	
   /* USER CODE BEGIN 2 */
-
 
   /* USER CODE END 2 */
 
+printf("Entrez une direction avec ZQSD : \n");
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
+
+
   while (1)
-  {
-    /* USER CODE END WHILE */
+  { 
+		
+		EntrerDirection();
+    
+		/* USER CODE END WHILE */
 /*	Led_turnOn(&led);
 		LL_mDelay(1000);
 		Led_turnOff(&led);
@@ -128,6 +141,7 @@ int main(void)
   * @brief System Clock Configuration
   * @retval None
   */
+
 void SystemClock_Config(void)
 {
   LL_FLASH_SetLatency(LL_FLASH_LATENCY_0);

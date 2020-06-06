@@ -18,7 +18,8 @@ tdao_1_etienne_roche_33\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll
 tdao_1_etienne_roche_33\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h
 tdao_1_etienne_roche_33\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h
 tdao_1_etienne_roche_33\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h
+tdao_1_etienne_roche_33\main.o: ../Inc/Moteur.h
+tdao_1_etienne_roche_33\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+tdao_1_etienne_roche_33\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 tdao_1_etienne_roche_33\main.o: ../Inc/usart.h
 tdao_1_etienne_roche_33\main.o: ../Inc/gpio.h
-tdao_1_etienne_roche_33\main.o: ../Inc/led.h
-tdao_1_etienne_roche_33\main.o: ../Inc/button.h
